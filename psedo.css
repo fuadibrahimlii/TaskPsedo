@@ -1,0 +1,22 @@
+.text{
+    color: white;
+    background-color: green;
+    padding: 10px;
+    font-size: 40px;
+
+}
+
+
+.text::after{
+    content:"\2600";
+    color: yellow;
+    
+    
+}
+
+
+::selection{
+    
+    background: red;
+}
+
